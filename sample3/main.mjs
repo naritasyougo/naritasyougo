@@ -90,7 +90,7 @@ async function main() {
         //ymap.addFeature(marker);
         var icon = new Y.Icon('https://svgsilh.com/svg/823141.svg');
         var marker = new Y.Marker(new Y.LatLng(lct.lat, lct.lng), {icon: icon});
-        ymap.addFeature(marker);
+        map.addFeature(marker);
       } else {
         resultText.textContent = '正しい住所を入力してください';
       }
