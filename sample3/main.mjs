@@ -88,7 +88,7 @@ async function main() {
         //map.addFeature(label);
         //var marker = new Y.Larker(new Y.LatLng(lct.lat, lct.lng));
         //ymap.addFeature(marker);
-        var icon = new Y.Icon('https://svgsilh.com/svg/823141.svg');
+        var icon = new Y.Icon('https://svgsilh.com/png-512/823141.png');
         var marker = new Y.Marker(new Y.LatLng(lct.lat, lct.lng), {icon: icon});
         map.addFeature(marker);
       } else {
