@@ -65,7 +65,7 @@ function parseCoordinates(str) {
 async function main() {
   // 地図を初期化
   const map = new Y.Map('map');
-  drawMap(map, { lat: 35.68227528, lng: 139.73310240 });
+  drawMap(map, { lat: 34.7038830, lng: 139.4950516 });
   // コントロールの追加
   const sliderZoomControl = new Y.SliderZoomControlVertical();
   map.addControl(sliderZoomControl);
